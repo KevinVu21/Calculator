@@ -17,6 +17,7 @@
 
     #border{
         display: flex;
+        flex: 1;
         justify-content: center;
         border: 2px solid black;
         border-radius: 20px;
@@ -28,8 +29,8 @@
     #display{
         display: flex;
         /* border: 2px solid white; */
+        position: relative;
         height: 80px;
-        margin-top: 10px;
         margin: 10px;
         border-radius: 10px;
         background-color: white;
@@ -38,18 +39,20 @@
         display: flex;
         flex: 1;
         margin: 10px;
-        border-radius: 10px;
         flex-direction: column;
+        align-items:stretch;
+    
     }
     #firstRow{
         display: flex;
-        /* border: 2px solid white; */
+        justify-content: space-between;
+        margin: 10px;
         height: 50px;
     }
     #buttonBody{
         display: flex;
         flex: 1;
-        /* border: 2px solid white; */
+        margin: 10px;
     }
     #numbers{
         display: flex;
@@ -83,8 +86,17 @@
     #numberRow4{
         display: flex;
         flex: 1;
-        justify-content: space-between;
+        justify-content: space-between
     }
     #operators{
+        flex: 1;
         flex-direction: column;
+        justify-content: space-between;
+    }
+    #result{
+        font-size: 35px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 5px;
     }

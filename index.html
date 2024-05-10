@@ -8,35 +8,40 @@
     </head>
     <body>
         <div id = "border">
-            <div id="display"></div>
+            <div id="display">
+                <div id="result"></div>
+            </div>
             <div id="buttonDiv">
-                <div id="firstRow"></div>
+                <div id="firstRow">
+                    <button id="clear">AC</button>
+                    <button id="equal">=</button>
+                </div>
                 <div id="buttonBody">
                     <div id="numbers">
                         <div id="numberRow1">
-                            <button id="seven">7</button>
-                            <button id="eight">8</button>
-                            <button id="nine">9</button>
+                            <button class="values" id="seven">7</button>
+                            <button class="values" id="eight">8</button>
+                            <button class="values" id="nine">9</button>
                         </div>
                         <div id="numberRow2">
-                            <button id="four">4</button>
-                            <button id="five">5</button>
-                            <button id="six">6</button>
+                            <button class="values" id="four">4</button>
+                            <button class="values" id="five">5</button>
+                            <button class="values" id="six">6</button>
                         </div>
                         <div id="numberRow3">
-                            <button id="one">1</button>
-                            <button id="two">2</button>
-                            <button id="three">3</button>
+                            <button class="values" id="one">1</button>
+                            <button class="values" id="two">2</button>
+                            <button class="values" id="three">3</button>
                         </div>
-                        <div id="numberRow3">
-                            <button id="zero">0</button>
+                        <div id="numberRow4">
+                            <button class="values" id="zero">0</button>
                         </div>
                     </div>
                     <div id="operators">
-                        <button id="multiply">x</button>
-                        <button id="subtract">-</button>
-                        <button id="add">+</button>
-                        <button id="equal"></button>
+                        <button class="oper" id="divide">/</button>
+                        <button class="oper" id="multiply">x</button>
+                        <button class="oper" id="subtract">-</button>
+                        <button class="oper" id="add">+</button>    
                     </div>
                 </div>
             </div>
