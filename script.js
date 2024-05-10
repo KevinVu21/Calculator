@@ -34,6 +34,7 @@ oper.forEach(function (x) {
             second = null;
         }
         operator = x.textContent;
+        result = operate(first, operator, second);
         first = parseFloat(display.textContent);
         display.textContent = operator;
     });
